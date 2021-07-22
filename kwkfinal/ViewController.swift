@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var pick = 1
 
     @IBAction func gameViewButtonPressed(_ sender: AnyObject) {
         print ("game button pressed :)")
@@ -24,7 +26,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print ("view has loaded :)")
-        // Do any additional setup after loading the view.
+        }
+           override func becomeFirstResponder() -> Bool {
+               return true
     }
 
 

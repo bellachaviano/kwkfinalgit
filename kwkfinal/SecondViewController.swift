@@ -8,6 +8,8 @@
 import UIKit
 
 class secondViewController: UIViewController {
+    
+    var pick = 1
 
     @IBAction func homeOneViewButtonPressed(_ sender: AnyObject) {
         print("home button pressed :)")
@@ -15,19 +17,69 @@ class secondViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        override func becomeFirstResponder() -> Bool {
+        return true
+       }
+        override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+               if motion == .motionShake
+    {
+            if pick == 1
+        {
+            blankLabel.text = "I think"
+        }
+        else
+            if pick == 2
+        {
+                blankLabel.text = "It is decidely so"
+            }
+        else
+            if pick == 3
+        {
+                blankLabel.text = ""
+            }
+        else
+            if pick == 4
+        {
+                blankLabel.text = ""
+            }
+        else
+            if pick == 5
+        {
+                blankLabel.text = ""
+            }
+        else
+            if pick == 6
+        {
+                blankLabel.text = ""
+            }
+        else
+            if pick == 7
+        {
+                blankLabel.text = ""
+            }
+        else
+            if pick == 8
+        {
+                blankLabel.text = ""
+            }
+        else
+            if pick == 9
+        {
+                blankLabel.text = ""
+            }
+        else
+            if pick == 10
+        {
+                blankLabel.text = ""
+            }
+                pick = pick + 1
+        }
     }
-    */
+       func myRand(a: Int, b: Int) -> Int{
+           let range = b-a
+           let rand = Int(arc4random_uniform(UInt32(range)))+a
+           return rand
+    }
 
 }
