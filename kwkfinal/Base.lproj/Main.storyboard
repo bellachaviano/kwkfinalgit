@@ -363,7 +363,7 @@
                                 <color key="textColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="186" id="rtP-cy-cyz" userLabel="title">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="186" id="rtP-cy-cyz" userLabel="title">
                                 <rect key="frame" x="152" y="59" width="186" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -379,8 +379,8 @@
                                 </attributedString>
                                 <color key="highlightedColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="DWE-By-KWR">
-                                <rect key="frame" x="20" y="21" width="109" height="180"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="DWE-By-KWR">
+                                <rect key="frame" x="20" y="25" width="101" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="201" id="tXO-oA-HGf"/>
@@ -407,7 +407,7 @@
                             <constraint firstAttribute="trailing" secondItem="dnK-j6-fit" secondAttribute="trailing" constant="6" id="0eE-mo-ThD"/>
                             <constraint firstItem="dnK-j6-fit" firstAttribute="top" secondItem="DWE-By-KWR" secondAttribute="bottom" constant="14" id="1QT-4P-UKH"/>
                             <constraint firstItem="Gf8-p6-1jP" firstAttribute="leading" secondItem="Okt-lD-CQE" secondAttribute="leading" constant="5" id="1Ti-Va-SR7"/>
-                            <constraint firstItem="rtP-cy-cyz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DWE-By-KWR" secondAttribute="trailing" constant="-20.5" id="269-mq-xS2"/>
+                            <constraint firstItem="rtP-cy-cyz" firstAttribute="leading" secondItem="DWE-By-KWR" secondAttribute="trailing" constant="-20.5" id="269-mq-xS2"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Gf8-p6-1jP" secondAttribute="bottom" constant="-14" id="9jh-Ah-Eyb"/>
                             <constraint firstItem="dnK-j6-fit" firstAttribute="leading" secondItem="Emb-nZ-hxI" secondAttribute="trailing" constant="4" id="AFD-0B-Utt"/>
                             <constraint firstAttribute="trailing" secondItem="SIG-i8-q4I" secondAttribute="trailing" constant="8" id="AIr-Xq-K6h"/>
@@ -423,7 +423,7 @@
                             <constraint firstItem="rtP-cy-cyz" firstAttribute="centerX" secondItem="M9v-hV-M0l" secondAttribute="centerX" constant="10" id="XtO-Ax-71L"/>
                             <constraint firstItem="SgF-nG-os9" firstAttribute="centerX" secondItem="5xx-7q-p7K" secondAttribute="centerX" constant="5.25" id="YFb-4A-1hy"/>
                             <constraint firstItem="SgF-nG-os9" firstAttribute="top" secondItem="rtP-cy-cyz" secondAttribute="bottom" constant="8" id="Yde-hh-riq"/>
-                            <constraint firstItem="SgF-nG-os9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DWE-By-KWR" secondAttribute="trailing" constant="51.5" id="YxI-Do-8cg"/>
+                            <constraint firstItem="SgF-nG-os9" firstAttribute="leading" secondItem="DWE-By-KWR" secondAttribute="trailing" constant="51.5" id="YxI-Do-8cg"/>
                             <constraint firstItem="Emb-nZ-hxI" firstAttribute="trailing" secondItem="Okt-lD-CQE" secondAttribute="trailing" constant="3" id="a4F-zc-ZI3"/>
                             <constraint firstItem="SIG-i8-q4I" firstAttribute="top" secondItem="5xx-7q-p7K" secondAttribute="bottom" constant="29" id="aaO-fe-jFB"/>
                             <constraint firstItem="SIG-i8-q4I" firstAttribute="leading" secondItem="5xx-7q-p7K" secondAttribute="leading" constant="1" id="bLb-xn-wcX"/>
@@ -635,7 +635,7 @@ Need 2 Text (Texttline just to talk) Text "talk" to
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="h1a-ba-eEK"/>
+        <segue reference="y7f-uf-mbo"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_9182 (1)" width="1918" height="2557"/>
