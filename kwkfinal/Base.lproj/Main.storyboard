@@ -36,22 +36,6 @@
                                     <action selector="homeOneViewButtonPressed:" destination="YEq-5i-dSF" eventType="touchUpInside" id="9GX-9V-5w8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="186" id="vUz-Wh-EZh" userLabel="title">
-                                <rect key="frame" x="124" y="59" width="186" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="8alance">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="0.36350170880491262" blue="0.92268232973748843" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <color key="NSColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="48" name="Cambay-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYG-Rm-sL6">
                                 <rect key="frame" x="179" y="123" width="214.5" height="28"/>
                                 <constraints>
@@ -67,6 +51,22 @@
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="186" id="vUz-Wh-EZh" userLabel="title">
+                                <rect key="frame" x="152" y="59" width="186" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="8alance">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.36350170880491262" blue="0.92268232973748843" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="48" name="Cambay-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="a4L-5F-OTV"/>
@@ -225,22 +225,6 @@
                                     <action selector="homeThreeViewButtonPressed:" destination="65j-14-ari" eventType="touchUpInside" id="3uk-vi-Yn2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="186" id="rtP-cy-cyz" userLabel="title">
-                                <rect key="frame" x="124" y="59" width="186" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="8alance">
-                                        <attributes>
-                                            <color key="NSBackgroundColor" red="1" green="0.36350170880491262" blue="0.92268232973748843" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <color key="NSColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="48" name="Cambay-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Okt-lD-CQE">
                                 <rect key="frame" x="3" y="406" width="163" height="194"/>
                             </imageView>
@@ -341,6 +325,22 @@
                                 <fontDescription key="fontDescription" name="Cambay-Regular" family="Cambay" pointSize="16"/>
                                 <color key="textColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="186" id="rtP-cy-cyz" userLabel="title">
+                                <rect key="frame" x="152" y="59" width="186" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="8alance">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.36350170880491262" blue="0.92268232973748843" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="48" name="Cambay-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x60-SM-87r"/>
@@ -456,8 +456,8 @@ For more helplines click here:
                                 <color key="textColor" red="0.97647058959999999" green="0.96862745289999996" blue="0.97254908080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Y1m-u4-muC">
-                                <rect key="frame" x="20" y="213" width="193" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="216" id="Y1m-u4-muC">
+                                <rect key="frame" x="20" y="213" width="256" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="In an Emergency?">
@@ -577,7 +577,7 @@ Need 2 Text (Texttline just to talk) Text "talk" to
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="h1a-ba-eEK"/>
+        <segue reference="sFx-04-3J4"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_9182 (1)" width="1918" height="2557"/>
