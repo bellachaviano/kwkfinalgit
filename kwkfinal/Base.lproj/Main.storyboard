@@ -263,10 +263,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Okt-lD-CQE">
-                                <rect key="frame" x="3" y="406" width="163" height="194"/>
+                                <rect key="frame" x="3" y="205" width="163" height="395"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Image from iOS (2)" translatesAutoresizingMaskIntoConstraints="NO" id="Emb-nZ-hxI">
-                                <rect key="frame" x="0.0" y="203" width="169" height="195"/>
+                                <rect key="frame" x="0.0" y="2" width="169" height="195"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="195" id="38c-Pl-9bO"/>
                                 </constraints>
@@ -279,7 +279,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="233" translatesAutoresizingMaskIntoConstraints="NO" id="5xx-7q-p7K">
-                                <rect key="frame" x="173" y="430" width="230" height="170"/>
+                                <rect key="frame" x="173" y="430" width="149.5" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="Ess-bK-K85"/>
                                 </constraints>
@@ -289,7 +289,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnK-j6-fit">
-                                <rect key="frame" x="173" y="215" width="235" height="183"/>
+                                <rect key="frame" x="173" y="14" width="235" height="183"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="235" id="0KY-bg-UZY"/>
                                 </constraints>
@@ -325,7 +325,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RL2-5J-3qj">
-                                <rect key="frame" x="191" y="406" width="192" height="21"/>
+                                <rect key="frame" x="191" y="205" width="192" height="222"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Nicole Hernandez">
                                         <attributes>
@@ -338,7 +338,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgF-nG-os9">
-                                <rect key="frame" x="194" y="123" width="198.5" height="28"/>
+                                <rect key="frame" x="92" y="123" width="322" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="5mY-Qw-Dg1"/>
                                 </constraints>
@@ -635,7 +635,7 @@ Need 2 Text (Texttline just to talk) Text "talk" to
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="y7f-uf-mbo"/>
+        <segue reference="h1a-ba-eEK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_9182 (1)" width="1918" height="2557"/>
